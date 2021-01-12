@@ -3,6 +3,5 @@ The data set comprises distances between nominal senses in polysemy networks mad
 
 Polysemy networks were made manually on the basis of each dictionary entry. Then meanings of Princeton WordNet nouns were mapped onto dictionary senses. The mapping was done independently by two lexicographers with Cohen's kappa greater than 0.80. For all possible pairs of senses we calculated Dijkstra's distances (distMW, distLEX).
 
-The last measure distOpti comprises the minimum value of two standardised distance measures (distMW', distLEX'). Here distMW' stands for (distMW-mean(distMW))/st.dev(distMW), similarly distLEX' = (distLEX-mean(distLEX))/st.dev(distLEX). Please note that in the case of senses belonging to disjoint parts of a polysemy networks, instead of infinity maximal values were chosen (max+1).
-
+We applied the correction with regard to missed senses. For details see M. Maziarz, F. Bond, E. Rudnicka, Testing agreement between lexicographers: A case of homonymy and polysemy, In: Proceedings of the 11th Global Wordnet Conference, Pretoria, South Africa, Jan 18-21, 2021.
 
